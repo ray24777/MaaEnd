@@ -89,6 +89,32 @@ def copy_file(src: Path, dst: Path) -> bool:
     return True
 
 
+def check_go_environment() -> bool:
+    """检查 Go 环境是否可用"""
+    try:
+        result = subprocess.run(
+            ["go", "version"],
+            capture_output=True,
+            text=True,
+        )
+        if result.returncode == 0:
+            print(f"  Go 版本: {result.stdout.strip()}")
+            return True
+    except FileNotFoundError:
+        pass
+
+    print("  [ERROR] 未检测到 Go 环境")
+    print()
+    print("  请安装 Go 后重试:")
+    print("    - 官方下载: https://go.dev/dl/")
+    print("    - Windows: winget install GoLang.Go")
+    print("    - macOS:   brew install go")
+    print("    - Linux:   参考发行版包管理器或官方指南")
+    print()
+    print("  安装后请确保 'go' 命令在 PATH 中可用")
+    return False
+
+
 def configure_ocr_model(assets_dir: Path, use_copy: bool = False) -> bool:
     """配置 OCR 模型"""
     assets_ocr_src = assets_dir / "MaaCommonAssets" / "OCR" / "ppocr_v5" / "zh_cn"
@@ -119,6 +145,9 @@ def build_go_agent(
     version: str | None = None,
 ) -> bool:
     """构建 Go Agent"""
+    if not check_go_environment():
+        return False
+
     go_service_dir = root_dir / "agent" / "go-service"
     if not go_service_dir.exists():
         print(f"  [ERROR] Go 源码目录不存在: {go_service_dir}")
