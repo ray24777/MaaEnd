@@ -30,7 +30,7 @@
 3. 下载 [MaaFramework](https://github.com/MaaXYZ/MaaFramework/releases) 并解压 `bin` 内容到 `install/maafw/` 。
 4. 下载 [MXU](https://github.com/MistEO/MXU/releases) 并解压到 `install/` 。
 5. 运行 `install/mxu.exe`，且后续使用相关工具编辑、调试等，都基于 `install` 文件夹。
-6.  `resource` 等文件夹是链接状态，修改 `install` 等同于修改 `assets` 中的内容，无需额外复制。  
+6. `resource` 等文件夹是链接状态，修改 `install` 等同于修改 `assets` 中的内容，无需额外复制。  
    **但 `interface.json` 是复制的，若有修改需手动复制回 `assets` 再进行提交。**
 
 ## 代码规范
@@ -52,4 +52,4 @@
 
 ## 交流
 
-开发 QQ 群: 1072587329 （干活群，不受理用户问题）
+开发 QQ 群: [1072587329](https://qm.qq.com/q/EyirQpBiW4) （干活群，不受理用户问题）
