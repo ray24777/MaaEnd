@@ -317,7 +317,6 @@
     "task.SeizeEntrustTaskisSwipeALL.label": "Swipe to traverse all orders",
     "task.SeizeEntrustTaskisSwipeALL.description": "When enabled, it will search through all orders from start to finish. It is recommended to enable this only if all orders can be traversed within 5 seconds. ~~Can be used to kill time ()~~",
     "resource.CN.label": "CN Server (官服)",
-    "resource.Bilibili.label": "Bilibili Server (B 服)",
     "resource.Global.label": "Global (EN)",
     "controller.Win32-Window.label": "PC-Default",
     "controller.Win32-Window.description": "Best compatibility, suitable for everyday use. Supports game minimization, may occasionally grab the mouse.",

@@ -101,15 +101,6 @@
             ]
         },
         {
-            "name": "B 服",
-            "label": "$resource.Bilibili.label",
-            "path": [
-                "./resource_fast",
-                "./resource",
-                "./resource_bilibili"
-            ]
-        },
-        {
             "name": "Global",
             "label": "$resource.Global.label",
             "path": [

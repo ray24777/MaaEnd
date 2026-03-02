@@ -317,7 +317,6 @@
     "option.BatchAddFriends.inputs.MaxCount.label": "最大追加数",
     "option.BatchAddFriends.inputs.MaxCount.description": "指定数に達したら停止",
     "resource.CN.label": "中国サーバー (官服)",
-    "resource.Bilibili.label": "Bilibiliサーバー (B 服)",
     "resource.Global.label": "グローバル (Global/EN)",
     "controller.Win32-Window.label": "PC-デフォルト",
     "controller.Win32-Window.description": "最高の互換性を持ち、日常的な使用に適しています。ゲームの最小化に対応しており、間接的にマウスを奪うことがあります。",

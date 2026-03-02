@@ -317,7 +317,6 @@
     "option.DailyTaskCreation.label": "简易制作",
     "option.DailyTaskCreation.desc": "自动一次制作来刷活跃度",
     "resource.CN.label": "官服",
-    "resource.Bilibili.label": "B 服",
     "resource.Global.label": "国际服 (Global/EN)",
     "controller.Win32-Window.label": "电脑端-默认",
     "controller.Win32-Window.description": "兼容性最好，适合日常使用。支持游戏最小化，会间接性抢占鼠标",

@@ -317,7 +317,6 @@
     "option.DailyTaskCreation.label": "간편 제작",
     "option.DailyTaskCreation.desc": "활동 점수를 얻기 위해 간편 제작을 자동으로 1회 진행합니다.",
     "resource.CN.label": "중국 서버 (官服)",
-    "resource.Bilibili.label": "Bilibili 서버 (B 服)",
     "resource.Global.label": "글로벌 (Global/EN)",
     "controller.Win32-Window.label": "PC-기본",
     "controller.Win32-Window.description": "호환성이 가장 뛰어나며 일상적인 사용에 적합합니다. 게임 최소화를 지원하며, 간접적으로 마우스를 점유할 수 있습니다.",
