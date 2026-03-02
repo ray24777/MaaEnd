@@ -19,7 +19,7 @@ jobs:
     # Only run on main repo, skip bot commits to prevent infinite loops
     if: >-
       ${{ github.repository_owner == 'MaaEnd' &&
-          github.event.head_commit.author.email != '41898282+github-actions[bot]@users.noreply.github.com' }}
+          (github.event_name != 'push' || github.event.head_commit.author.email != '41898282+github-actions[bot]@users.noreply.github.com') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
