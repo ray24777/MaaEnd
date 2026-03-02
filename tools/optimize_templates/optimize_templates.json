@@ -434,5 +434,8 @@
     "resource/image/SceneManager/MapWuling/JingyuValley3Center": "9b117dadcc4305adb52b93658a54ea264b09f44400fdfb41a335043e4ca75da5",
     "resource/image/SceneManager/MapWuling/JingyuValley2Center": "acbfe7847581dc17ad7e59b655766a9d09864ada8e153cc8570d30227149c3e7",
     "resource/image/SceneManager/MapWuling/JingyuValley10Center": "7b057ea36a219f2c1d4211577e0b7ec8d9f2e8a854c4a4563285e8f8adb0240b",
-    "resource/image/SceneManager/MapWuling/JingyuValley9Left": "57a0f7f8cb97c6e620c328f044867058a50b834f26e2b77abdcaf488dafcd909"
+    "resource/image/SceneManager/MapWuling/JingyuValley9Left": "57a0f7f8cb97c6e620c328f044867058a50b834f26e2b77abdcaf488dafcd909",
+    "resource/image/SceneManager/MapWuling/WulingCityCoreLeft": "6ba025961d09c7017e9d522316e21eb21fb15c2e5492a001ee0883b1046d703b",
+    "resource/image/SceneManager/MapWuling/WulingCityCoreRight": "f9a4afb04cf8853a6d2a98736c164c72ad048d39c6cbe692042dcbc264fd6103",
+    "resource/image/SceneManager/MapWuling/WulingCityCoreBottom": "1fef3f2fd5cdd2abad2b748b6c85a35c2ee83d4fc51f516c1e470c793eda7b9c"
 }
