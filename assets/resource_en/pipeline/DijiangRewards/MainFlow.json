@@ -11,9 +11,6 @@
         ],
         "expected": "Growth Chamber"
     },
-    "CloseAssist": {
-        "expected": "Production Assist"
-    },
     "InviteFriend": {
         "expected": "Invite Friend"
     }
