@@ -646,21 +646,16 @@
                             "template": "ItemTransfer/产物.png"
                         },
                         "ItemTransferFindItemInRepo": {
-                            "expected": 138
+                            "expected": 138,
+                            "threshold": 0.7
                         },
                         "ItemTransferFindItemInBag": {
-                            "expected": 138
+                            "expected": 138,
+                            "threshold": 0.7
                         },
                         "ItemTransferFindItemInBagReturn": {
-                            "expected": 138
-                        },
-                        "ItemTransferRepoToBag": {
-                            "next": [
-                                "ItemTransferClickSortDescending",
-                                "ItemTransferClickItemCategory",
-                                "ItemTransferFindItemInRepo",
-                                "ItemTransferScrollDownwardRepo"
-                            ]
+                            "expected": 138,
+                            "threshold": 0.7
                         }
                     }
                 },
