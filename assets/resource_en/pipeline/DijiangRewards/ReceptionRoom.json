@@ -28,8 +28,8 @@
                                     255,
                                     255
                                 ],
-                                "count": 40,
-                                "connected": true
+                                "connected": true,
+                                "count": 40
                             }
                         }
                     },
@@ -57,7 +57,6 @@
         "recognition": {
             "type": "And",
             "param": {
-                "box_index": 2,
                 "all_of": [
                     {
                         "recognition": {
@@ -97,8 +96,8 @@
                                     255,
                                     255
                                 ],
-                                "count": 40,
-                                "connected": true
+                                "connected": true,
+                                "count": 40
                             }
                         }
                     },
@@ -119,7 +118,8 @@
                             }
                         }
                     }
-                ]
+                ],
+                "box_index": 2
             }
         }
     },
@@ -142,7 +142,6 @@
         "recognition": {
             "type": "And",
             "param": {
-                "box_index": 1,
                 "all_of": [
                     {
                         "sub_name": "_Clue",
@@ -165,7 +164,6 @@
                         "recognition": {
                             "type": "OCR",
                             "param": {
-                                "only_rec": true,
                                 "roi": "_Clue",
                                 "roi_offset": [
                                     165,
@@ -175,11 +173,13 @@
                                 ],
                                 "expected": [
                                     "^(20|[4-9]|1[0-9])$"
-                                ]
+                                ],
+                                "only_rec": true
                             }
                         }
                     }
-                ]
+                ],
+                "box_index": 1
             }
         }
     },
@@ -187,11 +187,10 @@
         "expected": "Send"
     },
     "ReceiveClues": {
-        "doc": "[会客室·线索] 点击「接收」红点接收好友赠送线索",
+        "desc": "[会客室·线索] 点击「接收」红点接收好友赠送线索",
         "recognition": {
             "type": "And",
             "param": {
-                "box_index": 1,
                 "all_of": [
                     {
                         "sub_name": "_Tips",
@@ -215,8 +214,8 @@
                                     255,
                                     255
                                 ],
-                                "count": 40,
-                                "connected": true
+                                "connected": true,
+                                "count": 40
                             }
                         }
                     },
@@ -237,12 +236,13 @@
                             }
                         }
                     }
-                ]
+                ],
+                "box_index": 1
             }
         }
     },
     "EndExchange": {
-        "doc": "[会客室·线索] 情报交流结束弹窗出现时点击确认结束",
+        "desc": "[会客室·线索] 情报交流结束弹窗出现时点击确认结束",
         "recognition": {
             "type": "And",
             "param": {
