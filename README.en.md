@@ -46,7 +46,7 @@ If you run into any issues, feel free to open an [ISSUE](https://github.com/MaaE
 - ⚔️ **Protocol Space**: Automatically consume sanity to farm Protocol Space rewards until it's fully depleted, your best helper for clearing sanity!
 - 🔫 **Armory upgrade & assembly**: Automate weapon enhancement and gear assembly to free your hands and boost power easily.
 - 💰 **Auto trading/reselling**: Automatically identify and buy the most profitable goods, auto visit friends' ships to sell in one go; or just get purchase recommendations to maximize profit! 💸
-- 🛒 **One‑click product selling**: Automatically exchange products at bases into coupons/vouchers; let MaaEnd handle the repetitive clicking.
+- 🛒 **Sell Products**: Automatically exchange products at bases into coupons/vouchers; let MaaEnd handle the repetitive clicking.
 - 💳 **Credit shop purchasing**: Auto‑buy credit shop items based on your configured wish list so you can "AFK shop" safely.
 - 🐌 **Inventory transfer**: Move warehouse stock across regions on the Di Jiang ship in one batch (batteries/ore/sand leaves etc.).
 - 🔨 **Batch simple crafting**: Select items in simple crafting and let MaaEnd handle batch production (remember to clear some bag space first).
