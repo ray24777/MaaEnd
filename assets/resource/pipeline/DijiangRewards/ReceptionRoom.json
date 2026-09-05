@@ -252,6 +252,9 @@
                 ],
                 "expected": [
                     "线索",
+                    "線索",
+                    "Clues",
+                    "手がかり",
                     "Clue"
                 ]
             }
@@ -455,6 +458,9 @@
                 ],
                 "expected": [
                     "线索",
+                    "線索",
+                    "Clues",
+                    "手がかり",
                     "Clue"
                 ],
                 "order_by": "Vertical"
@@ -484,8 +490,9 @@
                 ],
                 "expected": [
                     "已填入",
-                    "Pegged",
-                    "配置中"
+                    "Added",
+                    "配置中",
+                    "Pegged"
                 ],
                 "order_by": "Vertical"
             }
